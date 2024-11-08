@@ -2,9 +2,7 @@
 
 # Help Motos with CMS - NextJS
 
-[![](https://img.shields.io/badge/Status-Em%20Desenvolvimento-red)](#) 
-
-[![](https://img.shields.io/badge/Version-1.0.0-yellow)](#)
+[![](https://img.shields.io/badge/Status-Em%20Desenvolvimento-red)](#)[![](https://img.shields.io/badge/Version-1.0.0-yellow)](#)
 
 <!-- ## 📸 Preview 
 
