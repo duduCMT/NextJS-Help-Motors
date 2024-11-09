@@ -1,0 +1,15 @@
+{
+	"NextJS Create Utils file": {
+		"scope": "typescript,typescriptreact",
+		"prefix": "nxutils",
+		"body": [
+		  "export class $1Utils {",
+		  "  static $2(input: string): string {",
+		  "    return input;",
+		  "  }",
+		  "}",
+		  ""
+		],
+		"description": "Cria uma estrutura para uma classe util statica"
+	  }
+}

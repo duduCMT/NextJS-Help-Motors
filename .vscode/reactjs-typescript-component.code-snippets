@@ -1,0 +1,29 @@
+{
+	"Next JS Create a Functinal Component": {
+		"scope": "typescript,typescriptreact",
+		"prefix": "rfcomponent",
+		"body": [
+      "import { ComponentProps } from \"react\";",
+      "",
+      "import styles from \"./styles.module.scss\";",
+      "",
+      "type $1Props = ComponentProps<\"div\"> & {",
+      "  children: React.ReactNode;",
+      "};",
+      "",
+      "export const $1 = ({",
+      "  children,",
+      "  className,",
+      "  ...rest",
+      "}: $1Props) => {",
+      "  return (",
+      "    <div className={`${className } ${styles.container}`} {...rest}>",
+      "      {children}",
+      "    </div>",
+      "  );",
+      "};",
+      ""
+    ],
+		"description": "Cria uma estrutura para ContextAPI e Provider."
+	  }
+}

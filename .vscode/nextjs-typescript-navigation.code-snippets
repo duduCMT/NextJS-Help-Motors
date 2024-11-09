@@ -1,0 +1,15 @@
+{
+	"Next JS Create Context and Provider": {
+		"scope": "typescript,typescriptreact",
+		"prefix": "nxnv",
+		"body": [
+		  "export class $1Navigation {",
+		  "  static getPath(data: string) {",
+		  "    return `/\\${data}`;",
+		  "  }",
+		  "}",
+		  "",
+		],
+		"description": "Cria uma para arquivos de navegação estáticos no NextJS"
+	  }
+}

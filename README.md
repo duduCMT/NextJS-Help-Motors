@@ -2,7 +2,7 @@
 
 # Help Motos with CMS - NextJS
 
-[![](https://img.shields.io/badge/Status-Em%20Desenvolvimento-red)](#) [![](https://img.shields.io/badge/Version-1.0.0-yellow)](#)
+[![](https://img.shields.io/badge/Status-Em%20Desenvolvimento-red)](#) [![](https://img.shields.io/badge/Version-0.0.1-yellow)](#)
 
 <!-- ## 📸 Preview 
 
@@ -27,7 +27,6 @@ Projeto para prática e teste de integrações de CMS em aplicações para facil
 
 ## 🔎 Instruções para rodar o projeto
 
-📌 **Pré requisitos:**
 1. Tenha o repositório clonado em sua máquina.
 
 2. Tenha o [NodeJS](https://nodejs.org/) instalado em sua máquina.
@@ -36,4 +35,4 @@ Projeto para prática e teste de integrações de CMS em aplicações para facil
 
 4. Com o terminal aberto no diretório do projeto, execute o comando `npm i --force` para instalar as dependências.
    
-5. Após a instalação, você deve rodar o projeto localmente usando o comando `npm start`.
+5. Após a instalação, você deve rodar o projeto localmente usando o comando `npm run dev`.

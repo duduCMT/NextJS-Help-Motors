@@ -1,0 +1,26 @@
+{
+	"React JS import module scss": {
+		"scope": "typescript,typescriptreact,javascript,javascriptreact",
+		"prefix": "iscss",
+		"body": [
+		  "import styles from \"./styles.module.scss\";",
+		],
+		"description": "Importação do modulo scss local"
+	},
+	"React JS import colors": {
+		"scope": "typescript,typescriptreact,javascript,javascriptreact",
+		"prefix": "iscssc",
+		"body": [
+		  "import colors from \"@/styles/sass/colors.module.scss\";",
+		],
+		"description": "Importação do modulo scss de cores"
+	},
+	"React JS import devices breakpoints": {
+		"scope": "typescript,typescriptreact,javascript,javascriptreact",
+		"prefix": "iscssdb",
+		"body": [
+		  "import devices from \"@/styles/sass/devices.module.scss\";",
+		],
+		"description": "Importação do modulo scss de breakpoints de dispositivos"
+	}
+}
