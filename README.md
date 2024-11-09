@@ -2,7 +2,10 @@
 
 # Help Motos with CMS - NextJS
 
-[![](https://img.shields.io/badge/Status-Em%20Desenvolvimento-red)](#) [![](https://img.shields.io/badge/Version-0.0.1-yellow)](#) [![](https://img.shields.io/badge/Status-UI%Reference-purple)](https://dribbble.com/shots/20694713-Automobile-Service-Website)
+[![](https://img.shields.io/badge/Status-Em%20Desenvolvimento-red)](#) 
+[![](https://img.shields.io/badge/Version-0.0.1-yellow)](#) 
+[![](https://img.shields.io/badge/View-UI%20reference-red)](https://dribbble.com/shots/20694713-Automobile-Service-Website) 
+
 
 <!-- ## 📸 Preview 
 
