@@ -5,6 +5,7 @@ import { Roboto } from "next/font/google";
 import { defaultMetadata } from "@/libs/Metadata";
 
 import "@/styles/sass/global.scss";
+import Header from "@/components/Header";
 
 const roboto = Roboto({
   weight: ["300", "400", "500", "700", "900"],
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body>
+        <Header />
         {children}
       </body>
     </html>

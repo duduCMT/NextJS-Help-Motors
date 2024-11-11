@@ -25,13 +25,9 @@ html {
 }
 
 a {
-  color: $primary-color;
   cursor: pointer;
   transition: color 300ms ease;
   text-decoration: none;
-  &:hover {
-    color: $primary-color-600;
-  }
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -42,7 +38,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
-  background-color: $bg-color-200;
+  background-color: $bg-light-color;
 }
 
 ol, ul {
@@ -60,13 +56,13 @@ ol, ul {
 
   /* Estilize o polegar da scrollbar */
   ::-webkit-scrollbar-thumb {
-    background: $neutral-color-100; 
+    background: $black-soft-text-color; 
     border-radius: 8px;
   }
 
   /* Estilize o polegar da scrollbar quando estiver sendo arrastado */
   ::-webkit-scrollbar-thumb:hover {
-    background: $neutral-color-200;
+    background: $black-soft-text-color;
   }
 }
 

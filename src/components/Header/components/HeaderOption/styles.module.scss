@@ -1,0 +1,15 @@
+@import "@/styles/sass/variables.module.scss";
+
+.text {
+  color: $white-soft-text-color;
+  transition: all 100ms ease-in-out;
+  font-size: 0.75rem;
+
+  &:hover {
+    color: $white-text-color;
+  }
+
+  @media screen and (min-width: $tablet) {
+    font-size: 1rem;
+  }
+}
