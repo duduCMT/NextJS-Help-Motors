@@ -1,0 +1,54 @@
+@import "@/styles/sass/variables.module.scss";
+
+.container {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.25rem 0.25rem;
+
+
+  @media screen and (min-width: $tablet) {
+    width: 130px;
+    padding: 0.25rem 1rem;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.value {
+  color: $white-text-color;
+  font-size: 1.25rem;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 1.75rem;
+  }
+}
+
+.label {
+  color: $white-soft-text-color;
+  max-width: 75px;
+  line-height: 120%; 
+
+  font-size: 0.5rem;   
+
+  @media screen and (min-width: $tablet) {
+    line-height: 110%; 
+    font-size: 0.75rem;   
+  }
+}
+
+.borderLeft {
+  border-left: 1px solid $white-soft-text-color;
+}
+
+.borderRight {
+  border-right: 1px solid $white-soft-text-color;
+}

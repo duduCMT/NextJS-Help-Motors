@@ -1,0 +1,17 @@
+@import "@/styles/sass/variables.module.scss";
+
+.light {
+  color: $white-text-color;
+}
+
+.softLight {
+  color: $white-soft-text-color;
+}
+
+.dark {
+  color: $black-text-color;
+}
+
+.softDark {
+  color: $black-soft-text-color;
+}

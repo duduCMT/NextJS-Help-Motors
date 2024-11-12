@@ -1,6 +1,7 @@
+import Home from "@/templates/Home";
 
-export default async function Home() {
+export default async function HomePage() {
   return (
-    <h1>Help Motors</h1>
+    <Home />
   );
 }

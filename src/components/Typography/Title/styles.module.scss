@@ -1,0 +1,10 @@
+@import "@/styles/sass/variables.module.scss";
+
+.title {
+  line-height: 130%;
+  font-size: 1.5rem;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 3rem;
+  }
+}

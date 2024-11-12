@@ -1,4 +1,5 @@
 $primary-color: #0775FF;
+$primary-color-hover: rgba(red($primary-color), green($primary-color), blue($primary-color), 0.75);
 $primary-color-bg-opacity: rgba(red($primary-color), green($primary-color), blue($primary-color), 0.13);
 
 $success-color: #4caf50;
