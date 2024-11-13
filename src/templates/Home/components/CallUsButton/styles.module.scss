@@ -1,0 +1,45 @@
+@import "@/styles/sass/variables.module.scss";
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: $black-soft-text-color 1px solid;
+  padding: 0;
+}
+
+.description {
+  padding: 1rem;
+  font-size: 0.75rem;
+  color: #fff;
+  line-height: 130%;
+  width: fit-content;
+  max-width: 300px;
+
+  @media screen and (min-width: $laptop) {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+}
+
+.button {
+  background-color: $primary-color;
+  color: #FFF;
+  font-size: 0.75rem;
+  border: none;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 100ms ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primary-color-hover;
+  }
+
+  
+}

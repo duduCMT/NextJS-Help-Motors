@@ -10,7 +10,7 @@ export default function Main() {
   return (
     <DefaultContainer className={styles.container} contentClassName={styles.content}>
       <div className={styles.textArea}>
-        <Title color="light">
+        <Title color="light" size="large">
           Se seu carro travar,<br/>
           Help Motors vai ajudar!
         </Title>
