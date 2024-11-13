@@ -1,9 +1,11 @@
-import Paragraph from "@/components/Typography/Paragraph";
-import Title from "@/components/Typography/Title";
-import Main from "./components/Main";
+import Main from "./sections/Main";
+import MainServices from "./sections/MainServices";
 
 export default function Home() {
   return (
-    <Main />
+    <>
+      <Main />
+      <MainServices /> 
+    </>
   )
 }

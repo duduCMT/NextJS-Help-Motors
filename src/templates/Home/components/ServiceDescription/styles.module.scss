@@ -1,0 +1,41 @@
+@import "@/styles/sass/variables.module.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconContainer {
+  border: $black-soft-text-color 1px solid;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 99px;
+  background-color: $bg-dark-color;
+  position: absolute;
+  top: -21px;
+}
+
+.content {
+  border: $black-soft-text-color 1px solid;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.title {
+  color: $white-text-color;
+  font-weight: normal;
+  font-size: 0.75rem;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 0.875rem;
+  }
+}
+
+.description {
+  color: $white-soft-text-color;
+  line-height: 150%;
+  font-size: 0.75rem;
+}

@@ -3,9 +3,8 @@ import Paragraph from "@/components/Typography/Paragraph";
 import Title from "@/components/Typography/Title";
 
 import styles from "./styles.module.scss";
-import Image from "next/image";
 import Button from "@/components/Button";
-import { Counter } from "../Counter";
+import { Counter } from "../../components/Counter";
 
 export default function Main() {
   return (
