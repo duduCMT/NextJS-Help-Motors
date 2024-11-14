@@ -3,6 +3,7 @@ import CallUsButton from "../../components/CallUsButton";
 
 import styles from "./styles.module.scss";
 import Paragraph from "@/components/Typography/Paragraph";
+import ServiceCard from "@/components/ServiceCard";
 
 export default function OurServices() {
   return (
@@ -22,6 +23,34 @@ export default function OurServices() {
           </div>
         </div>
       </article>
+      <div className={`${styles.listContainer}`}>
+        <div className={`${styles.list}`}>
+          <ServiceCard 
+            title="Transmissão"
+            description="Cuidamos da transmissão do seu veículo com precisão e experiência. Realizamos desde trocas de fluido até reparos completos, garantindo que cada marcha funcione suavemente e com eficiência."
+            hrefSeeMore="#"
+            src="https://images.unsplash.com/photo-1686082260106-d650d2aabab5?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          />
+          <ServiceCard 
+            title="Transmissão"
+            description="Cuidamos da transmissão do seu veículo com precisão e experiência. Realizamos desde trocas de fluido até reparos completos, garantindo que cada marcha funcione suavemente e com eficiência."
+            hrefSeeMore="#"
+            src="https://images.unsplash.com/photo-1686082260106-d650d2aabab5?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          />
+          <ServiceCard 
+            title="Transmissão"
+            description="Cuidamos da transmissão do seu veículo com precisão e experiência. Realizamos desde trocas de fluido até reparos completos, garantindo que cada marcha funcione suavemente e com eficiência."
+            hrefSeeMore="#"
+            src="https://images.unsplash.com/photo-1686082260106-d650d2aabab5?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          />
+          <ServiceCard 
+            title="Transmissão"
+            description="Cuidamos da transmissão do seu veículo com precisão e experiência. Realizamos desde trocas de fluido até reparos completos, garantindo que cada marcha funcione suavemente e com eficiência."
+            hrefSeeMore="#"
+            src="https://images.unsplash.com/photo-1686082260106-d650d2aabab5?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          />
+        </div>
+      </div>
     </section>
   )
 }

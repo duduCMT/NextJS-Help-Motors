@@ -1,10 +1,15 @@
 @import "@/styles/sass/variables.module.scss";
 
-.paragraph {
+.paragraphRegular {
   line-height: 140%;
   font-size: 0.75rem;
 
   @media screen and (min-width: $tablet) {
     font-size: 1rem;
   }
+}
+
+.paragraphSmall {
+  line-height: 140%;
+  font-size: 0.75rem;
 }
